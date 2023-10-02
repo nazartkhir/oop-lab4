@@ -31,4 +31,7 @@ public class Character {
     public boolean isAlive(){
         return (this.hp>0);
     }
+    public void kick(Character c){
+        
+    }
 }

@@ -8,4 +8,8 @@ public class King extends lotr.Character{
         this.setHp(rand.nextInt(11) +5);
         this.setPower(rand.nextInt(11) + 5);
     }
+    public void kick(Character c){
+        Random rand = new Random(); 
+        c.setHp(getHp() - rand.nextInt(getPower()));
+    }
 }

@@ -1,5 +1,5 @@
 package lotr;
-public class Elf extends Character{
+public class Elf extends lotr.Character{
     public Elf(){
         super(10, 10);
     }

@@ -8,4 +8,8 @@ public class Knight extends lotr.Character{
         this.setHp(rand.nextInt(11) + 2);
         this.setPower(rand.nextInt(11) + 2);
     }
+    public void kick(Character c){
+        Random rand = new Random(); 
+        c.setHp(getHp() - rand.nextInt(getPower()));
+    }
 }
